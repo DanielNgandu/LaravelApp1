@@ -27,11 +27,14 @@ class ProfileController extends Controller
     {
 
         //find user
-        $user = User::findOrFail($id)->all();
-//        dd($user);
+        $user = User::findOrFail($id);
+//        dd($user->name);
+        $user->first()->id;   // id from the first object
 
         return view('home',[
-            'user' => $user
-        ]);
+            'user'=>$user
+        ]
+
+        );
     }
 }

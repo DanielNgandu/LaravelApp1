@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0cbf4b-abc0-4799-9789-33c9c318ffc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_05_20_194531_create_profiles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_02_190629_posts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,8 +180,17 @@
       <option name="presentableId" value="Default" />
       <updated>1589773357567</updated>
       <workItem from="1589773363113" duration="3520000" />
-      <workItem from="1589784719121" duration="26711000" />
+      <workItem from="1589784719121" duration="28426000" />
+      <workItem from="1590914619455" duration="10395000" />
     </task>
+    <task id="LOCAL-00001" summary="New stuff">
+      <created>1590692990080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590692990080</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +198,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="New stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="New stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="913" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589781747029">
@@ -208,22 +210,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="537" y="263" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.864@0.0.1536.864" timestamp="1589867983888" />
-    <state width="1493" height="221" key="GridCell.Tab.0.bottom" timestamp="1589784921711">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1590692989229">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589784921711" />
-    <state width="1493" height="221" key="GridCell.Tab.0.center" timestamp="1589784921711">
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1590692989229" />
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1590995319197">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589784921711" />
-    <state width="1493" height="221" key="GridCell.Tab.0.left" timestamp="1589784921711">
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1590995319197" />
+    <state width="1493" height="221" key="GridCell.Tab.0.bottom" timestamp="1590908287092">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589784921711" />
-    <state width="1493" height="221" key="GridCell.Tab.0.right" timestamp="1589784921711">
+    <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590908287092" />
+    <state width="1493" height="221" key="GridCell.Tab.0.center" timestamp="1590908287091">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589784921711" />
+    <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590908287091" />
+    <state width="1493" height="221" key="GridCell.Tab.0.left" timestamp="1590908287091">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590908287091" />
+    <state width="1493" height="221" key="GridCell.Tab.0.right" timestamp="1590908287092">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590908287092" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1589829603538">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -232,10 +242,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589868164358" />
-    <state x="470" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1589784739335">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1590908193923">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="470" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1589784739335" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1590908193923" />
+    <state x="470" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1590914620220">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="470" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590914620220" />
     <state x="847" y="33" width="611" height="804" key="find.popup" timestamp="1589917539998">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

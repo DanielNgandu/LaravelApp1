@@ -7,18 +7,30 @@
                 <img src="/logos/apple-icon.png" class="rounded-circle">
             </div>
             <div class="col-9">
-                <div><h1>{{ $user }}</h1></div>
+                <div class="row">
+                    <div class="col-9"><h1>{{
+    $user->name
+
+     }}</h1>
+
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="btn-info btn-lg">Add New Post</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>{{ $user->profile->title}}</h3>
+                </div>
                 <div>
                     <div class="d-flex">
                         <div class="pr-5"><strong>123 </strong>Posts</div>
                         <div class="pr-5"><strong>10000 </strong>Followers</div>
                         <div class="pr-5"><strong>3000 </strong>Following</div>
                     </div>
-                    <div class="pt-3 font-weight-bold"><a href="https://danielngandu.com/">danielngandu.com</a></div>
-                    <div><p>An ambitious problem solver with a passion for online businesses, and who would like to join
-                            a team of like-minded developers. Daniel has much experience of creating logical and
-                            innovative solutions to complex problems. He is thorough and precise in everything He does,
-                            and has a keen interest in technology, mobile applications and user experience.</p></div>
+                    <div class="pt-3 font-weight-bold"><a
+                            href="https://{{ $user->profile->url }}/">{{ $user->profile->url }}</a></div>
+                    <div><p>{{ $user->profile->description }}</p></div>
                     <div class="row">
 
                         <div class="col-4 pr-1 pt-3"><img
