@@ -30,8 +30,8 @@ class ProfileController extends Controller
         $user = User::findOrFail($id);
 //        dd($user->name);
         $user->first()->id;   // id from the first object
-
-        return view('home',[
+       //folder/file
+        return view('profile.profile',[
             'user'=>$user
         ]
 
