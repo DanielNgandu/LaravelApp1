@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0cbf4b-abc0-4799-9789-33c9c318ffc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591469040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591469187.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591469595.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591472060.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591472094.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591472128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591472177.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591472711.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591472809.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591473433.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591473456.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591473553.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591473681.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/T1591473725.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/php14BC.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/php2074.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +176,7 @@
       <updated>1589773357567</updated>
       <workItem from="1589773363113" duration="3520000" />
       <workItem from="1589784719121" duration="28426000" />
-      <workItem from="1590914619455" duration="34759000" />
+      <workItem from="1590914619455" duration="35036000" />
     </task>
     <task id="LOCAL-00001" summary="New stuff">
       <created>1590692990080</created>
@@ -224,7 +206,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591468128519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="File upload clean up">
+      <created>1591473798236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591473798236</updated>
+    </task>
+    <task id="LOCAL-00006" summary="File upload clean up">
+      <created>1591473844178</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591473844178</updated>
+    </task>
+    <task id="LOCAL-00007" summary="File upload clean up">
+      <created>1591473899642</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591473899642</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +237,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New stuff" />
     <MESSAGE value="File upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="File upload" />
+    <MESSAGE value="File upload clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="File upload clean up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="913" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589781747029">
@@ -245,10 +249,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="537" y="263" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.864@0.0.1536.864" timestamp="1589867983888" />
-    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1591473843546">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1591473899090">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591473843546" />
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591473899090" />
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1590995319197">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -281,10 +285,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589868164358" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591473850607">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591473905829">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591473850607" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591473905829" />
     <state x="470" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1590914620220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

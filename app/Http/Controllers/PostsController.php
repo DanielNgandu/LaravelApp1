@@ -32,28 +32,25 @@ class PostsController extends Controller
 
         ]);
 
-//        dd(request()->all());
 
-        //image upload logic here
-
-        //save the data to the database
+        //Logic start :save the data to the database
         $post  = new Posts() ;
         $post->text = $request->text;
         $post->user_id = auth()->user()->id;
 
+        //check if request params have image
+        //image upload logic here
         if($request->hasFile('image')){
-//            $image = $request->file('image');
             $imageName = 'T'.time().'.'.$request->image->extension();
             $request->image->move(public_path('uploads'), $imageName);
             $post->image = $imageName;
             $post->save();
         };
 
+        //Logic end: save request params to our object
         $post->save();
 
 
-        //only create/store data from auth users
-//        auth()->user()->post()->create($data);
         //redirect to new page with success messages
         return redirect('/profile/'.auth()->user()->id)
 
