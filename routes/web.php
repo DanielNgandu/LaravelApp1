@@ -24,3 +24,6 @@ Route::get('/profile/{user}', 'ProfileController@index')->name('profile.show');
 
 //used to create a post
 Route::get('/post/create', 'PostsController@create');
+
+//used to store post
+Route::post('/post', 'PostsController@store');

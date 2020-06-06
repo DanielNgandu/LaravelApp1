@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0cbf4b-abc0-4799-9789-33c9c318ffc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/1591466993.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/1591467046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/T1591467499.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +182,7 @@
       <updated>1589773357567</updated>
       <workItem from="1589773363113" duration="3520000" />
       <workItem from="1589784719121" duration="28426000" />
-      <workItem from="1590914619455" duration="16907000" />
+      <workItem from="1590914619455" duration="29065000" />
     </task>
     <task id="LOCAL-00001" summary="New stuff">
       <created>1590692990080</created>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591125932136</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New stuff">
+      <created>1591161434992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591161434992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,10 +225,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="537" y="263" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.864@0.0.1536.864" timestamp="1589867983888" />
-    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1591125931241">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1591161434340">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591125931241" />
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591161434340" />
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1590995319197">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -253,22 +261,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589868164358" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591161425861">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591161510155">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591161425861" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591161510155" />
     <state x="470" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1590914620220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="470" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590914620220" />
-    <state x="847" y="33" width="611" height="804" key="find.popup" timestamp="1589917539998">
+    <state x="847" y="33" width="611" height="804" key="find.popup" timestamp="1591217615121">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="847" y="33" width="611" height="804" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1589917539998" />
-    <state x="785" y="200" key="run.anything.popup" timestamp="1589918572303">
+    <state x="847" y="33" width="611" height="804" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1591217615121" />
+    <state x="785" y="200" key="run.anything.popup" timestamp="1591467851509">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="785" y="200" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1589918572303" />
+    <state x="785" y="200" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1591467851509" />
     <state x="790" y="185" key="search.everywhere.popup" timestamp="1589921060309">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
