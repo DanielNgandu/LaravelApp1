@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Posts extends Model
 {
-    //sercurity guard, leaving this empty ie [], means the model is unguarded
+    //security guard, leaving this empty ie [], means the model is unguarded
     protected $guarded = [];
     //post belongs to user
     public function user(){

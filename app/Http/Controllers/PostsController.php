@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Posts;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Date;
+use Intervention\Image\Facades\Image;
 
 class PostsController extends Controller
 {
@@ -40,6 +41,7 @@ class PostsController extends Controller
 
         //check if request params have image
         //image upload logic here
+//        $image = Image::make(public_path('uploads')->fit(800,800));
         if($request->hasFile('image')){
             $imageName = 'T'.time().'.'.$request->image->extension();
             $request->image->move(public_path('uploads'), $imageName);
