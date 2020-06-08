@@ -21,6 +21,12 @@ Auth::routes();
 
 //used to show user profile
 Route::get('/profile/{user}', 'ProfileController@index')->name('profile.show');
+//edit profile
+Route::get('/profile/{user}/edit', 'ProfileController@edit')->name('profile.edit');
+//update patch
+Route::patch('/profile/{user}/update', 'ProfileController@update')->name('profile.update');
+
+
 
 //used to create a post
 Route::get('/post/create', 'PostsController@create');

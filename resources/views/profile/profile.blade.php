@@ -8,7 +8,9 @@
             </div>
             <div class="col-9">
                 <div class="row align-baseline">
-                    <div class="col-9"><h1>{{$user->name}}</h1>
+                    <div class="col-9">
+                        <h1>{{$user->name}}</h1>
+                        <a href ="{{ $user->id }}/edit">Edit Profile</a>
 
                     </div>
                     <div class="col-3">
@@ -29,11 +31,12 @@
                             href="https://{{ $user->profile->url }}/">{{ $user->profile->url }}</a></div>
                     <div><p>{{ $user->profile->description }}</p></div>
 
+                    <div class="row pt-5">
+
                     @foreach($user->post as $post)
-                        <div class="row">
-                            <div class="col-4 pr-1 pt-3"><img
+                            <div class="col-4 pr-1 pt-3 rounded-pill align-baseline align-bottom"><a href="/post/edit/{{$post->id}}"><img
                                     src="{{url('/uploads/'.$post->image)}}"
-                                    alt="image here" class="w-100">
+                                    alt="image here" class="w-100"></a>
                             </div>
                         </div>
                     @endforeach
