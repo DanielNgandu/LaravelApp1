@@ -28,7 +28,7 @@
 
 
 
-        <form method="POST" action="route('profile.edit', $profile)" enctype="multipart/form-data" >
+        <form method="POST" action="{{ route('profile.update') }}" enctype="multipart/form-data" >
 
 
 

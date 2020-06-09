@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ab0cbf4b-abc0-4799-9789-33c9c318ffc1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/public/uploads/T1591587760.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/editprofile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/T1591652608.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/editprofile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/editprofile.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591473899642</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Working stuff">
+      <created>1591594771635</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591594771635</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +257,8 @@
     <MESSAGE value="New stuff" />
     <MESSAGE value="File upload" />
     <MESSAGE value="File upload clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="File upload clean up" />
+    <MESSAGE value="Working stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="913" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589781747029">
@@ -259,10 +269,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="537" y="263" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.864@0.0.1536.864" timestamp="1589867983888" />
-    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1591473899090">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1591594770952">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591473899090" />
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591594770952" />
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1591588401579">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -295,10 +305,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589868164358" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591473905829">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591594777516">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591473905829" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591594777516" />
     <state x="541" y="166" key="VcsDiffUtil.ChangesDialog" timestamp="1591588004484">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -52,7 +52,7 @@ class ProfileController extends Controller
     }
     public function edit(User $user)
     {
-//             $this->authorize('update',$user->profile);
+//        $this->authorize('update',$user->profile);
         $profile = Profile::find($user);
 
         return view('profile.editprofile', compact('user'));
@@ -106,7 +106,7 @@ class ProfileController extends Controller
     {
        $this->authorize('update',$user->profile());
         //Logic start :save the data to the database
-//        $profile  = new Profile() ;
+        $profile  = Profile::findorFail($user) ;
 
         $data = request()->validate([
             'title' => 'required|min:5',
@@ -120,9 +120,9 @@ class ProfileController extends Controller
             'url.required' => 'URL is required'
 
         ]);
-//        $profile->title = request('title');
-//        $profile->description = request('description');
-//        $profile->url = request('url');
+        $profile->title = request('title');
+        $profile->description = request('description');
+        $profile->url = request('url');
 
         if(request('image')){
             $imageName = 'T'.time().'.'.request()->image->extension();
@@ -131,8 +131,8 @@ class ProfileController extends Controller
             $image->save();
         };
         //update record
-//        $profile->save();
-        auth()->user()->profile()->update(array_merge($data,['image'=>$imagePath]));   // id from the first object
+//        auth()->user()->profile()->update(array_merge($data,['image'=>$imagePath]));   // id from the first object
+        $profile->save();
 
 
         //redirect to new page with success messages

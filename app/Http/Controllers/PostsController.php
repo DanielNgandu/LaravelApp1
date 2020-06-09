@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Posts;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Date;
 
@@ -59,5 +60,20 @@ class PostsController extends Controller
             ->with('image',$imageName);
 
 //        dd(request()->all());
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(User $user)
+    {
+        //Retrieve the employee
+        $post = Posts::find($user);
+        //delete
+        $post->delete();
+        return redirect()->route('profile.profile');
     }
 }

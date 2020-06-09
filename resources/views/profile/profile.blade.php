@@ -10,11 +10,16 @@
                 <div class="row align-baseline">
                     <div class="col-9">
                         <h1>{{$user->name}}</h1>
+{{--                        @can('update',$user->profile)--}}
                         <a href ="{{ $user->id }}/edit">Edit Profile</a>
+{{--                        @endcan--}}
 
                     </div>
                     <div class="col-3">
+{{--                        @can('update',$user->profile)--}}
                         <a href="/post/create" class="btn-info btn-lg">Add New Post</a>
+{{--                        @endcan--}}
+
                     </div>
                 </div>
 
@@ -23,7 +28,7 @@
                 </div>
                 <div>
                     <div class="d-flex">
-                        <div class="pr-5"><strong>123 </strong>Posts</div>
+                        <div class="pr-5"><strong>{{ $user->post->count() }} </strong>Posts</div>
                         <div class="pr-5"><strong>10000 </strong>Followers</div>
                         <div class="pr-5"><strong>3000 </strong>Following</div>
                     </div>
